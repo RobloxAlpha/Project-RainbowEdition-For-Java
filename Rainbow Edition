@@ -518,6 +518,7 @@ local function UIMJDC_fake_script() -- Set.LocalScript
 		Box.Text = ""
 		Box.TextColor3 = Color3.fromRGB(0, 0, 0)
 		Box.TextSize = 14.000
+		Box.TextScaled = true
 	
 		UICorner_2.Parent = Box
 	
@@ -2116,7 +2117,7 @@ local function FFTGPOM_fake_script() -- Shutdown.LocalScript
 			--Properties:
 	
 			DarkGui.Name = "DarkGui"
-			DarkGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+			DarkGui.Parent = game.CoreGui
 			DarkGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 	
 			DarGui.Name = "DarGui"
@@ -2784,7 +2785,7 @@ local function FROBDQ_fake_script() -- VIPGui.LocalScript
 			--Properties:
 	
 			VIPMenu.Name = "VIPMenu"
-			VIPMenu.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+			VIPMenu.Parent = game.CoreGui
 			VIPMenu.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 	
 			Main.Name = "Main"
