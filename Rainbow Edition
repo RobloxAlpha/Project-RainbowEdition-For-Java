@@ -39,7 +39,7 @@ local UICorner_15 = Instance.new("UICorner")
 --Properties:
 
 MainForRainbow.Name = "MainForRainbow"
-MainForRainbow.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+MainForRainbow.Parent = game.CoreGui
 MainForRainbow.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Loading.Name = "Loading"
