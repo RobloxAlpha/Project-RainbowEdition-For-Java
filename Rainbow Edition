@@ -45,7 +45,7 @@ MainForRainbow.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Loading.Name = "Loading"
 Loading.Parent = MainForRainbow
 Loading.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
-Loading.Position = UDim2.new(0.37583372, 0, 0.331279248, 0)
+Loading.Position = UDim2.new(0.360069036, 0, 0.378511786, 0)
 Loading.Size = UDim2.new(0, 581, 0, 290)
 
 UICorner.Parent = Loading
@@ -245,14 +245,14 @@ UICorner_15.Parent = MainFrameForRainbow
 
 -- Scripts:
 
-local function MIHT_fake_script() -- MainForRainbow.ToggleKey 
+local function MAZH_fake_script() -- MainForRainbow.ToggleKey 
 	local script = Instance.new('LocalScript', MainForRainbow)
 
 	local MainFrame = script.Parent.MainFrameForRainbow
 	local Opened = false
 	
-	local PositionClosed = UDim2.new(-0.371, 0,0.262, 0)
-	local PositionOpened = UDim2.new(0.622, 0,0.293, 0)
+	local PositionClosed = UDim2.new(-0.356, 0,0.157, 0)
+	local PositionOpened = UDim2.new(0.635, 0,0.158, 0)
 	
 	local UserInputService = game:GetService("UserInputService")
 	
@@ -268,8 +268,8 @@ local function MIHT_fake_script() -- MainForRainbow.ToggleKey
 		end
 	end)
 end
-coroutine.wrap(MIHT_fake_script)()
-local function ZDQT_fake_script() -- Loading.Draggable 
+coroutine.wrap(MAZH_fake_script)()
+local function IHTPJJ_fake_script() -- Loading.Draggable 
 	local script = Instance.new('LocalScript', Loading)
 
 	local UIS = game:GetService('UserInputService')
@@ -308,8 +308,8 @@ local function ZDQT_fake_script() -- Loading.Draggable
 	end)
 	
 end
-coroutine.wrap(ZDQT_fake_script)()
-local function KWZBMD_fake_script() -- tct.LocalScript 
+coroutine.wrap(IHTPJJ_fake_script)()
+local function DRHV_fake_script() -- tct.LocalScript 
 	local script = Instance.new('LocalScript', tct)
 
 	script.Parent.Text = "Loading..."
@@ -331,8 +331,8 @@ local function KWZBMD_fake_script() -- tct.LocalScript
 	script.Parent.Parent.Parent.Loading.Visible = false
 	script.Parent.Parent.Parent.MainFrameForRainbow.Visible = true
 end
-coroutine.wrap(KWZBMD_fake_script)()
-local function VHXNRPD_fake_script() -- LoadUI.LocalScript 
+coroutine.wrap(DRHV_fake_script)()
+local function DHPGWY_fake_script() -- LoadUI.LocalScript 
 	local script = Instance.new('LocalScript', LoadUI)
 
 	-- Variables.
@@ -386,8 +386,8 @@ local function VHXNRPD_fake_script() -- LoadUI.LocalScript
 	game:GetService("StarterGui"):SetCoreGuiEnabled(Enum.CoreGuiType.All, true)
 	script.Parent:Destroy()
 end
-coroutine.wrap(VHXNRPD_fake_script)()
-local function DETYFLK_fake_script() -- Close.LocalScript 
+coroutine.wrap(DHPGWY_fake_script)()
+local function OVJJPM_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -395,8 +395,8 @@ local function DETYFLK_fake_script() -- Close.LocalScript
 		script.Parent.Parent.Parent.Loading.Visible = false
 	end)
 end
-coroutine.wrap(DETYFLK_fake_script)()
-local function KEFUE_fake_script() -- Loading.LocalScript 
+coroutine.wrap(OVJJPM_fake_script)()
+local function MWUTEI_fake_script() -- Loading.LocalScript 
 	local script = Instance.new('LocalScript', Loading)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -409,8 +409,8 @@ local function KEFUE_fake_script() -- Loading.LocalScript
 		counter = counter + 0.01
 	end
 end
-coroutine.wrap(KEFUE_fake_script)()
-local function JXECDNN_fake_script() -- MainForRainbow.Share Destance 
+coroutine.wrap(MWUTEI_fake_script)()
+local function ALTR_fake_script() -- MainForRainbow.Share Destance 
 	local script = Instance.new('LocalScript', MainForRainbow)
 
 	local plr = game.Players.LocalPlayer
@@ -422,8 +422,8 @@ local function JXECDNN_fake_script() -- MainForRainbow.Share Destance
 		script.Parent.Loading.Visible = false
 	end
 end
-coroutine.wrap(JXECDNN_fake_script)()
-local function OOTYP_fake_script() -- MainForRainbow.LocalScript 
+coroutine.wrap(ALTR_fake_script)()
+local function KEVM_fake_script() -- MainForRainbow.LocalScript 
 	local script = Instance.new('LocalScript', MainForRainbow)
 
 	local plr = game.Players.LocalPlayer
@@ -432,8 +432,8 @@ local function OOTYP_fake_script() -- MainForRainbow.LocalScript
 		game.StarterGui:SetCore("SendNotification", {Title = "Developer", Text = "Developer John"})
 	end
 end
-coroutine.wrap(OOTYP_fake_script)()
-local function SCONCI_fake_script() -- tcttct.Draggable 
+coroutine.wrap(KEVM_fake_script)()
+local function CGRQ_fake_script() -- tcttct.Draggable 
 	local script = Instance.new('LocalScript', tcttct)
 
 	local UIS = game:GetService('UserInputService')
@@ -472,8 +472,8 @@ local function SCONCI_fake_script() -- tcttct.Draggable
 	end)
 	
 end
-coroutine.wrap(SCONCI_fake_script)()
-local function JQZBHK_fake_script() -- Set.LocalScript 
+coroutine.wrap(CGRQ_fake_script)()
+local function RFRM_fake_script() -- Set.LocalScript 
 	local script = Instance.new('LocalScript', Set)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -691,8 +691,8 @@ local function JQZBHK_fake_script() -- Set.LocalScript
 	
 	end)
 end
-coroutine.wrap(JQZBHK_fake_script)()
-local function NUHYU_fake_script() -- ScriptHub.LocalScript 
+coroutine.wrap(RFRM_fake_script)()
+local function JTZYP_fake_script() -- ScriptHub.LocalScript 
 	local script = Instance.new('LocalScript', ScriptHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1263,8 +1263,8 @@ local function NUHYU_fake_script() -- ScriptHub.LocalScript
 	
 	end)
 end
-coroutine.wrap(NUHYU_fake_script)()
-local function NLOHH_fake_script() -- Script2.LocalScript 
+coroutine.wrap(JTZYP_fake_script)()
+local function QIILB_fake_script() -- Script2.LocalScript 
 	local script = Instance.new('LocalScript', Script2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1470,8 +1470,8 @@ local function NLOHH_fake_script() -- Script2.LocalScript
 	
 	end)
 end
-coroutine.wrap(NLOHH_fake_script)()
-local function CXUMCCX_fake_script() -- Maded.LocalScript 
+coroutine.wrap(QIILB_fake_script)()
+local function AJEV_fake_script() -- Maded.LocalScript 
 	local script = Instance.new('LocalScript', Maded)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1479,8 +1479,8 @@ local function CXUMCCX_fake_script() -- Maded.LocalScript
 		game.StarterGui:SetCore("SendNotification", {Title = "Simple Ui Loaded.", Text = "This is Allowed For All so this is Simple UI Of Once Key if you died for you need get key again."})
 	end)
 end
-coroutine.wrap(CXUMCCX_fake_script)()
-local function JLBQ_fake_script() -- Shutdown.LocalScript 
+coroutine.wrap(AJEV_fake_script)()
+local function PDFQ_fake_script() -- Shutdown.LocalScript 
 	local script = Instance.new('LocalScript', Shutdown)
 
 	local plr = game.Players.LocalPlayer
@@ -2657,8 +2657,8 @@ local function JLBQ_fake_script() -- Shutdown.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JLBQ_fake_script)()
-local function NTXSRR_fake_script() -- VIPGui.LocalScript 
+coroutine.wrap(PDFQ_fake_script)()
+local function MEJN_fake_script() -- VIPGui.LocalScript 
 	local script = Instance.new('LocalScript', VIPGui)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2877,24 +2877,24 @@ local function NTXSRR_fake_script() -- VIPGui.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NTXSRR_fake_script)()
-local function NOMFU_fake_script() -- Credits.LocalScript 
+coroutine.wrap(MEJN_fake_script)()
+local function SPGMZN_fake_script() -- Credits.LocalScript 
 	local script = Instance.new('LocalScript', Credits)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.StarterGui:SetCore("SendNotification", {Title = "Credits!", Text = "Discord : RobloxAlpha#4338"})
 	end)
 end
-coroutine.wrap(NOMFU_fake_script)()
-local function HDWCEW_fake_script() -- MainFrameForRainbow.print 
+coroutine.wrap(SPGMZN_fake_script)()
+local function VATXROM_fake_script() -- MainFrameForRainbow.print 
 	local script = Instance.new('Script', MainFrameForRainbow)
 
 	print('Loading...')
 	wait(2)
 	print('Auth Checked Enjoy :)')
 end
-coroutine.wrap(HDWCEW_fake_script)()
-local function AGNV_fake_script() -- MainFrameForRainbow.Draggable 
+coroutine.wrap(VATXROM_fake_script)()
+local function EYIT_fake_script() -- MainFrameForRainbow.Draggable 
 	local script = Instance.new('LocalScript', MainFrameForRainbow)
 
 	local UIS = game:GetService('UserInputService')
@@ -2933,8 +2933,8 @@ local function AGNV_fake_script() -- MainFrameForRainbow.Draggable
 	end)
 	
 end
-coroutine.wrap(AGNV_fake_script)()
-local function KRLFIWN_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(EYIT_fake_script)()
+local function BIZU_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2942,8 +2942,8 @@ local function KRLFIWN_fake_script() -- Close_2.LocalScript
 		game.StarterGui:SetCore("SendNotification", {Title = "Closed", Text = "ROBLOX GUIX IS CLOSED!!"})
 	end)
 end
-coroutine.wrap(KRLFIWN_fake_script)()
-local function XIII_fake_script() -- MainFrameForRainbow.LocalScript 
+coroutine.wrap(BIZU_fake_script)()
+local function FYVM_fake_script() -- MainFrameForRainbow.LocalScript 
 	local script = Instance.new('LocalScript', MainFrameForRainbow)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -2956,4 +2956,4 @@ local function XIII_fake_script() -- MainFrameForRainbow.LocalScript
 		counter = counter + 0.01
 	end
 end
-coroutine.wrap(XIII_fake_script)()
+coroutine.wrap(FYVM_fake_script)()
