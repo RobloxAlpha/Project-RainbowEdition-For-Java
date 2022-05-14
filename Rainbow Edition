@@ -1167,7 +1167,7 @@ local function HDVPJ_fake_script() -- ScriptHub.LocalScript
 			local script = Instance.new('LocalScript', PrisonLife)
 	
 			script.Parent.MouseButton1Click:Connect(function()
-				loadstring(game:HttpGet(('https://pastebin.com/VMSPCCCV'),true))()
+				loadstring(game:HttpGet(('https://raw.githubusercontent.com/RobloxAlpha/CmdGui/main/CMDs'),true))()
 			end)
 		end
 		coroutine.wrap(HXPEV_fake_script)()
