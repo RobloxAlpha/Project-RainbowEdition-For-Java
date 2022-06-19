@@ -1873,7 +1873,7 @@ local function PDFQ_fake_script() -- Shutdown.LocalScript
 						game.StarterGui:SetCore("SendNotification", {Title = "Welcome!", Text = "Welcome! Developer John Doe!"})
 						gui.Visible = true
 						script.Parent.Parent.Parent.DarGui.Visible = false
-					elseif plr.Name == "ROBLOXRTYUIOPQw" or "Galaxy_waterblue" then
+					elseif plr.Name == "ROBLOXRTYUIOPQw" then
 						game.StarterGui:SetCore("SendNotification", {Title = "Welcome!", Text = "Welcome! Whitelist Player:"..plr.Name})
 						script.Parent.Parent.Parent.DarGui.Visible = false
 						gui.Visible = true
@@ -2069,7 +2069,7 @@ local function PDFQ_fake_script() -- Shutdown.LocalScript
 				end)
 			end
 			coroutine.wrap(JWUYF_fake_script)()
-		else
+		elseif plr.Name == "ROBLOXRTYUIOPQw" then
 			game.StarterGui:SetCore("SendNotification", {Title = "Welcome!", Text = "Welcome! Whitelist Player:"..plr.Name.."!"})
 			-- Gui to Lua
 			-- Version: 3.2
