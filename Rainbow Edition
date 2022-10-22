@@ -2061,7 +2061,7 @@ local function SQKYJDY_fake_script() -- Shutdown.LocalScript
 				local script = Instance.new('LocalScript', execute)
 	
 				script.Parent.MouseButton1Click:Connect(function()
-					local plr = game.Players.LocalPlayer
+					local plr = game.Players:GetPlayers()
 					game.StarterGui:SetCore("SendNotification", {Title = "Server Closing!", Text = "Shutdowning Server..."})
 					wait(4)
 					local box = script.Parent.Parent.TextBox
